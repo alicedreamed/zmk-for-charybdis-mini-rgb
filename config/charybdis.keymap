@@ -4,9 +4,14 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &lt {
-    tapping-term-ms = <200>;
-    flavor = "balanced";
+    tapping-term-ms = <100>;
+    flavor = "tap-preferred";
     quick-tap-ms = <150>;
+};
+
+&mt {
+    tapping-term-ms = <100>;
+    flavor = "tap-preferred";
 };
 
 / {
